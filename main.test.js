@@ -1,4 +1,23 @@
-
+let x = 3
+let y = 10
+let z = 5
+let name = 'Michael'
+let greeting = 'HEY'
+function multiply(y) {
+  x = x*y
+}
+function modYBy(x) {
+  y = y % x
+}
+function opposite(x) {
+  z = x * (-1)
+}
+function makeFullName(lastName) {
+  name = name+' '+lastName
+}
+function yellAt(mr) {
+  greeting = greeting+', '+mr+'!'
+}
 
 /*********************************************************************************************************************
 
